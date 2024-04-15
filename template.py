@@ -3,12 +3,15 @@ from pathlib import Path
 
 list_of_files = [
     
+    '.github/workflows/main.yaml',                      # github actions workflow for ci-cd pipeline  
+    
+    'setup.py',                                         # for converting project into package 
+    
+    'requirements.txt',                                 # requirements for projects 
+    
     'notebooks/experiments.ipynb',                      # folder for all jupyter notebooks
     
     'artifacts/.gitkeep',                               # folder to store csv and pickle files
-    
-    'requirements.txt',                                 # requirements for projects 
-    'requirements_dev.txt',                             # requirements only development environment 
         
     'src/__init__.py',                                  # main source code folder
     'src/components/__init__.py',                       # components
@@ -23,26 +26,9 @@ list_of_files = [
     'src/logger.py',                                    # logging
     'src/utils.py',                                     # common functions
     
-    'tests/unit/__init__.py',                            # folder for unit testing
-    'tests/unit/unit.py',
-    'tests/integration/__init__.py',                     # folder for integration testing
-    'tests/integration/integration.py',
-    'setup.cfg',
-    'pyproject.toml',
-    'tox.ini',                                          # to test the project in the local environment
-    
-    'setup.py',                                         # for converting project into package 
-    'init_setup.sh',
-    
     'application.py',                                   # for creating the flask application 
     'templates/index.html',                             # for creating the ui for the application
     'static/css/style.css',
-    
-    # deployment
-    # '.ebextensions/python.config',                      # for deployment of machine learning model in aws elasitc beanstalk
-    # 'Dockerfile'                                        # for containerizing the project
-    
-    '.github/workflows/main.yaml',                        # github actions workflow for ci-cd pipeline  
     
     'images/.gitkeep',                                  # supporting images for github readme
 
