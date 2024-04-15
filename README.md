@@ -1,4 +1,4 @@
-<h1 align="center">:rocket: Generic Data Science Project Template :rocket:</h1>
+<h1 align="center">Movie:clapper: Recommender System :computer:</h1>
 
 ---
 
